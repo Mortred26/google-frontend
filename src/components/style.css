@@ -144,7 +144,7 @@ body {
 
   .box .inputBox input {
     padding: 0.5rem 8px; /* Adjust padding for inputs */
-    max-width: 300px;
+    max-width: 350px;
   }
 
   .box .inputBox label {
@@ -195,7 +195,6 @@ body {
 
   .box .inputBox input {
     padding: 10px 8px;
-    max-width: 245px;
   }
 
   .box input[type="submit"] {
@@ -211,12 +210,5 @@ body {
     color: grey;
     pointer-events: none;
     transition: 0.3s;
-  }
-}
-
-@media (max-width: 384px) {
-  .box .inputBox input {
-    padding: 8px 6px;
-    max-width: 200px;
   }
 }
